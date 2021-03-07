@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta http-equiv="cache-control" content="no-cache, no-store, must-revalidate">
+    <!--Favicon-->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <!--Notiflix-->
+    <link rel="stylesheet" href="dist/Notiflix-2.7.0/Notiflix-2.7.0/dist/notiflix-2.7.0.min.css">
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+    <!--CSS-->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Possiblu</title>
+</head>
+<body>
+    <section class="container">
+
+        <form class="form_question" id="form_question" action="javascript:void(0);">
+            <label for="question">Haz tu pregunta:</label>
+            <br>
+            <input type="text" name="question" id="question" required>
+            <br>
+            <button type="submit" class="form_btn" id="form_btn">¿Que te deparará el destino?</button>
+        </form>
+
+        <section class="answer_wrapper" id="answer_wrapper">
+            <div class="question_text" id="question_text"></div>
+            <div class="answer_text" id="answer_text"></div>
+        </section>
+
+    </section>
+
+    <!--Notiflix-->
+    <script src="dist/Notiflix-2.7.0/Notiflix-2.7.0/dist/notiflix-2.7.0.min.js"></script>
+    <!--JS-->
+    <script src="js/index.js"></script>
+</body>
+</html>
